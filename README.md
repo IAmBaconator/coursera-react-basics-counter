@@ -3,7 +3,8 @@ A demo of a simple counter application that demonstrates how React useState hook
 ## Goal
 The goal of this lab is to build a React application that provides the user with buttons that allow the user to increase or decrease a counter through a useState hook.
 # Lab Notes
-Command to create a _(this)_ React app, `npx create-react-app counter_app` and start the browser preview of the app, `npm start`. Note: The create-react-app command is deprecated.
+Command to create a _(this)_ React app, `npx create-react-app counter_app` and start the browser preview of the app, `npm start`.<br />
+**Note:** The create-react-app command is deprecated.
 ## useState Hook Explaination
 * The `useState` hook is used to declare state i functional components.  In this case, the _num_ state variable is used to hold the current number, and _setNum_ is the function that updates this number.
 * initially, _num_ is set to `0` (useState(0)).
